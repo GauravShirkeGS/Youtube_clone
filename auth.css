@@ -1,0 +1,38 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: auto;
+    margin-top: 50px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    border: 1px solid red;
+    text-align: center;
+    padding: 0px 26px;
+  }
+
+  form {
+    width: 10%;
+  }
+  input{
+    width: 295px;
+    height: 30px;
+    
+    margin-bottom: 20px;
+    /* margin-left: 25px; */
+  }
+button{
+    padding: 6px 15px;
+    /* margin-bottom: 20px; */
+}
+#login-form>button{
+    margin-bottom: 20px;
+}
+  #login-form{
+    display: none;
+  }
+
+  #register-form{
+    /* margin: auto; */
+    
+  }
